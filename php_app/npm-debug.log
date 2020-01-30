@@ -1,0 +1,542 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Scuola\\A.S.2018-2019\\Classi\\5D\\TPSI\\node-v11.1.0-win-x64\\node.exe',
+1 verbose cli   'D:\\Scuola\\A.S.2018-2019\\Classi\\5D\\TPSI\\node-v11.1.0-win-x64\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--scripts-prepend-node-path=auto' ]
+2 info using npm@1.4.9
+3 info using node@v11.1.0
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ 'C:\\xampp\\htdocs\\5A\\basket',
+5 verbose install   [ '@fortawesome/fontawesome-free',
+5 verbose install     'bootstrap',
+5 verbose install     'jquery',
+5 verbose install     'simple-line-icons',
+5 verbose install     'browser-sync',
+5 verbose install     'del',
+5 verbose install     'gulp',
+5 verbose install     'gulp-autoprefixer',
+5 verbose install     'gulp-clean-css',
+5 verbose install     'gulp-header',
+5 verbose install     'gulp-plumber',
+5 verbose install     'gulp-rename',
+5 verbose install     'gulp-sass',
+5 verbose install     'merge-stream' ] ]
+6 info preinstall startbootstrap-landing-page@5.0.6
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'jquery@3.4.1', null ]
+9 verbose cache add name=undefined spec="jquery@3.4.1" args=["jquery@3.4.1",null]
+10 verbose parsed url Url {
+10 verbose parsed url   protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'jquery@3.4.1',
+10 verbose parsed url   path: 'jquery@3.4.1',
+10 verbose parsed url   href: 'jquery@3.4.1' }
+11 verbose cache add name="jquery" spec="3.4.1" args=["jquery","3.4.1"]
+12 verbose parsed url Url {
+12 verbose parsed url   protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '3.4.1',
+12 verbose parsed url   path: '3.4.1',
+12 verbose parsed url   href: '3.4.1' }
+13 verbose addNamed [ 'jquery', '3.4.1' ]
+14 verbose addNamed [ '3.4.1', '3.4.1' ]
+15 verbose cache add [ 'simple-line-icons@^2.4.1', null ]
+16 verbose cache add name=undefined spec="simple-line-icons@^2.4.1" args=["simple-line-icons@^2.4.1",null]
+17 verbose parsed url Url {
+17 verbose parsed url   protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'simple-line-icons@%5E2.4.1',
+17 verbose parsed url   path: 'simple-line-icons@%5E2.4.1',
+17 verbose parsed url   href: 'simple-line-icons@%5E2.4.1' }
+18 verbose cache add name="simple-line-icons" spec="^2.4.1" args=["simple-line-icons","^2.4.1"]
+19 verbose parsed url Url {
+19 verbose parsed url   protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '%5E2.4.1',
+19 verbose parsed url   path: '%5E2.4.1',
+19 verbose parsed url   href: '%5E2.4.1' }
+20 verbose addNamed [ 'simple-line-icons', '^2.4.1' ]
+21 verbose addNamed [ null, '>=2.4.1-0 <3.0.0-0' ]
+22 verbose cache add [ 'browser-sync@2.26.7', null ]
+23 verbose cache add name=undefined spec="browser-sync@2.26.7" args=["browser-sync@2.26.7",null]
+24 verbose parsed url Url {
+24 verbose parsed url   protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'browser-sync@2.26.7',
+24 verbose parsed url   path: 'browser-sync@2.26.7',
+24 verbose parsed url   href: 'browser-sync@2.26.7' }
+25 verbose cache add name="browser-sync" spec="2.26.7" args=["browser-sync","2.26.7"]
+26 verbose parsed url Url {
+26 verbose parsed url   protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '2.26.7',
+26 verbose parsed url   path: '2.26.7',
+26 verbose parsed url   href: '2.26.7' }
+27 verbose addNamed [ 'browser-sync', '2.26.7' ]
+28 verbose addNamed [ '2.26.7', '2.26.7' ]
+29 verbose cache add [ 'del@4.1.1', null ]
+30 verbose cache add name=undefined spec="del@4.1.1" args=["del@4.1.1",null]
+31 verbose parsed url Url {
+31 verbose parsed url   protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'del@4.1.1',
+31 verbose parsed url   path: 'del@4.1.1',
+31 verbose parsed url   href: 'del@4.1.1' }
+32 verbose cache add name="del" spec="4.1.1" args=["del","4.1.1"]
+33 verbose parsed url Url {
+33 verbose parsed url   protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: '4.1.1',
+33 verbose parsed url   path: '4.1.1',
+33 verbose parsed url   href: '4.1.1' }
+34 verbose addNamed [ 'del', '4.1.1' ]
+35 verbose addNamed [ '4.1.1', '4.1.1' ]
+36 verbose cache add [ 'gulp@4.0.2', null ]
+37 verbose cache add name=undefined spec="gulp@4.0.2" args=["gulp@4.0.2",null]
+38 verbose parsed url Url {
+38 verbose parsed url   protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: 'gulp@4.0.2',
+38 verbose parsed url   path: 'gulp@4.0.2',
+38 verbose parsed url   href: 'gulp@4.0.2' }
+39 verbose cache add name="gulp" spec="4.0.2" args=["gulp","4.0.2"]
+40 verbose parsed url Url {
+40 verbose parsed url   protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: '4.0.2',
+40 verbose parsed url   path: '4.0.2',
+40 verbose parsed url   href: '4.0.2' }
+41 verbose addNamed [ 'gulp', '4.0.2' ]
+42 verbose addNamed [ '4.0.2', '4.0.2' ]
+43 verbose cache add [ 'gulp-autoprefixer@6.1.0', null ]
+44 verbose cache add name=undefined spec="gulp-autoprefixer@6.1.0" args=["gulp-autoprefixer@6.1.0",null]
+45 verbose parsed url Url {
+45 verbose parsed url   protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: 'gulp-autoprefixer@6.1.0',
+45 verbose parsed url   path: 'gulp-autoprefixer@6.1.0',
+45 verbose parsed url   href: 'gulp-autoprefixer@6.1.0' }
+46 verbose cache add name="gulp-autoprefixer" spec="6.1.0" args=["gulp-autoprefixer","6.1.0"]
+47 verbose parsed url Url {
+47 verbose parsed url   protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: '6.1.0',
+47 verbose parsed url   path: '6.1.0',
+47 verbose parsed url   href: '6.1.0' }
+48 verbose addNamed [ 'gulp-autoprefixer', '6.1.0' ]
+49 verbose addNamed [ '6.1.0', '6.1.0' ]
+50 verbose cache add [ 'gulp-clean-css@4.2.0', null ]
+51 verbose cache add name=undefined spec="gulp-clean-css@4.2.0" args=["gulp-clean-css@4.2.0",null]
+52 verbose parsed url Url {
+52 verbose parsed url   protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: 'gulp-clean-css@4.2.0',
+52 verbose parsed url   path: 'gulp-clean-css@4.2.0',
+52 verbose parsed url   href: 'gulp-clean-css@4.2.0' }
+53 verbose cache add name="gulp-clean-css" spec="4.2.0" args=["gulp-clean-css","4.2.0"]
+54 verbose parsed url Url {
+54 verbose parsed url   protocol: null,
+54 verbose parsed url   slashes: null,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: null,
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: null,
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: '4.2.0',
+54 verbose parsed url   path: '4.2.0',
+54 verbose parsed url   href: '4.2.0' }
+55 verbose addNamed [ 'gulp-clean-css', '4.2.0' ]
+56 verbose addNamed [ '4.2.0', '4.2.0' ]
+57 verbose cache add [ 'gulp-header@2.0.7', null ]
+58 verbose cache add name=undefined spec="gulp-header@2.0.7" args=["gulp-header@2.0.7",null]
+59 verbose parsed url Url {
+59 verbose parsed url   protocol: null,
+59 verbose parsed url   slashes: null,
+59 verbose parsed url   auth: null,
+59 verbose parsed url   host: null,
+59 verbose parsed url   port: null,
+59 verbose parsed url   hostname: null,
+59 verbose parsed url   hash: null,
+59 verbose parsed url   search: null,
+59 verbose parsed url   query: null,
+59 verbose parsed url   pathname: 'gulp-header@2.0.7',
+59 verbose parsed url   path: 'gulp-header@2.0.7',
+59 verbose parsed url   href: 'gulp-header@2.0.7' }
+60 verbose cache add name="gulp-header" spec="2.0.7" args=["gulp-header","2.0.7"]
+61 verbose parsed url Url {
+61 verbose parsed url   protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: '2.0.7',
+61 verbose parsed url   path: '2.0.7',
+61 verbose parsed url   href: '2.0.7' }
+62 verbose addNamed [ 'gulp-header', '2.0.7' ]
+63 verbose addNamed [ '2.0.7', '2.0.7' ]
+64 verbose cache add [ 'gulp-plumber@^1.2.1', null ]
+65 verbose cache add name=undefined spec="gulp-plumber@^1.2.1" args=["gulp-plumber@^1.2.1",null]
+66 verbose parsed url Url {
+66 verbose parsed url   protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: 'gulp-plumber@%5E1.2.1',
+66 verbose parsed url   path: 'gulp-plumber@%5E1.2.1',
+66 verbose parsed url   href: 'gulp-plumber@%5E1.2.1' }
+67 verbose cache add name="gulp-plumber" spec="^1.2.1" args=["gulp-plumber","^1.2.1"]
+68 verbose parsed url Url {
+68 verbose parsed url   protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: '%5E1.2.1',
+68 verbose parsed url   path: '%5E1.2.1',
+68 verbose parsed url   href: '%5E1.2.1' }
+69 verbose addNamed [ 'gulp-plumber', '^1.2.1' ]
+70 verbose addNamed [ null, '>=1.2.1-0 <2.0.0-0' ]
+71 verbose cache add [ 'gulp-rename@1.4.0', null ]
+72 verbose cache add name=undefined spec="gulp-rename@1.4.0" args=["gulp-rename@1.4.0",null]
+73 verbose parsed url Url {
+73 verbose parsed url   protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: 'gulp-rename@1.4.0',
+73 verbose parsed url   path: 'gulp-rename@1.4.0',
+73 verbose parsed url   href: 'gulp-rename@1.4.0' }
+74 verbose cache add name="gulp-rename" spec="1.4.0" args=["gulp-rename","1.4.0"]
+75 verbose parsed url Url {
+75 verbose parsed url   protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: '1.4.0',
+75 verbose parsed url   path: '1.4.0',
+75 verbose parsed url   href: '1.4.0' }
+76 verbose addNamed [ 'gulp-rename', '1.4.0' ]
+77 verbose addNamed [ '1.4.0', '1.4.0' ]
+78 verbose cache add [ 'gulp-sass@4.0.2', null ]
+79 verbose cache add name=undefined spec="gulp-sass@4.0.2" args=["gulp-sass@4.0.2",null]
+80 verbose parsed url Url {
+80 verbose parsed url   protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: 'gulp-sass@4.0.2',
+80 verbose parsed url   path: 'gulp-sass@4.0.2',
+80 verbose parsed url   href: 'gulp-sass@4.0.2' }
+81 verbose cache add name="gulp-sass" spec="4.0.2" args=["gulp-sass","4.0.2"]
+82 verbose parsed url Url {
+82 verbose parsed url   protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: '4.0.2',
+82 verbose parsed url   path: '4.0.2',
+82 verbose parsed url   href: '4.0.2' }
+83 verbose addNamed [ 'gulp-sass', '4.0.2' ]
+84 verbose addNamed [ '4.0.2', '4.0.2' ]
+85 verbose cache add [ 'merge-stream@2.0.0', null ]
+86 verbose cache add name=undefined spec="merge-stream@2.0.0" args=["merge-stream@2.0.0",null]
+87 verbose parsed url Url {
+87 verbose parsed url   protocol: null,
+87 verbose parsed url   slashes: null,
+87 verbose parsed url   auth: null,
+87 verbose parsed url   host: null,
+87 verbose parsed url   port: null,
+87 verbose parsed url   hostname: null,
+87 verbose parsed url   hash: null,
+87 verbose parsed url   search: null,
+87 verbose parsed url   query: null,
+87 verbose parsed url   pathname: 'merge-stream@2.0.0',
+87 verbose parsed url   path: 'merge-stream@2.0.0',
+87 verbose parsed url   href: 'merge-stream@2.0.0' }
+88 verbose cache add name="merge-stream" spec="2.0.0" args=["merge-stream","2.0.0"]
+89 verbose parsed url Url {
+89 verbose parsed url   protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: '2.0.0',
+89 verbose parsed url   path: '2.0.0',
+89 verbose parsed url   href: '2.0.0' }
+90 verbose addNamed [ 'merge-stream', '2.0.0' ]
+91 verbose addNamed [ '2.0.0', '2.0.0' ]
+92 verbose cache add [ '@fortawesome/fontawesome-free@5.9.0', null ]
+93 verbose cache add name=undefined spec="@fortawesome/fontawesome-free@5.9.0" args=["@fortawesome/fontawesome-free@5.9.0",null]
+94 verbose parsed url Url {
+94 verbose parsed url   protocol: null,
+94 verbose parsed url   slashes: null,
+94 verbose parsed url   auth: null,
+94 verbose parsed url   host: null,
+94 verbose parsed url   port: null,
+94 verbose parsed url   hostname: null,
+94 verbose parsed url   hash: null,
+94 verbose parsed url   search: null,
+94 verbose parsed url   query: null,
+94 verbose parsed url   pathname: '@fortawesome/fontawesome-free@5.9.0',
+94 verbose parsed url   path: '@fortawesome/fontawesome-free@5.9.0',
+94 verbose parsed url   href: '@fortawesome/fontawesome-free@5.9.0' }
+95 silly lockFile bb40127d-jquery-3-4-1 jquery@3.4.1
+96 verbose lock jquery@3.4.1 C:\Users\mauro_000\AppData\Roaming\npm-cache\bb40127d-jquery-3-4-1.lock
+97 silly lockFile 1dc9256e-simple-line-icons-2-4-1 simple-line-icons@^2.4.1
+98 verbose lock simple-line-icons@^2.4.1 C:\Users\mauro_000\AppData\Roaming\npm-cache\1dc9256e-simple-line-icons-2-4-1.lock
+99 silly lockFile 0e7d2140-browser-sync-2-26-7 browser-sync@2.26.7
+100 verbose lock browser-sync@2.26.7 C:\Users\mauro_000\AppData\Roaming\npm-cache\0e7d2140-browser-sync-2-26-7.lock
+101 silly lockFile 01b5bdb3-del-4-1-1 del@4.1.1
+102 verbose lock del@4.1.1 C:\Users\mauro_000\AppData\Roaming\npm-cache\01b5bdb3-del-4-1-1.lock
+103 silly lockFile d70baf0d-gulp-4-0-2 gulp@4.0.2
+104 verbose lock gulp@4.0.2 C:\Users\mauro_000\AppData\Roaming\npm-cache\d70baf0d-gulp-4-0-2.lock
+105 silly lockFile 711e934b-gulp-autoprefixer-6-1-0 gulp-autoprefixer@6.1.0
+106 verbose lock gulp-autoprefixer@6.1.0 C:\Users\mauro_000\AppData\Roaming\npm-cache\711e934b-gulp-autoprefixer-6-1-0.lock
+107 silly lockFile b255371f-gulp-clean-css-4-2-0 gulp-clean-css@4.2.0
+108 verbose lock gulp-clean-css@4.2.0 C:\Users\mauro_000\AppData\Roaming\npm-cache\b255371f-gulp-clean-css-4-2-0.lock
+109 silly lockFile fe8fefb9-gulp-header-2-0-7 gulp-header@2.0.7
+110 verbose lock gulp-header@2.0.7 C:\Users\mauro_000\AppData\Roaming\npm-cache\fe8fefb9-gulp-header-2-0-7.lock
+111 silly lockFile 9bbc94f4-gulp-plumber-1-2-1 gulp-plumber@^1.2.1
+112 verbose lock gulp-plumber@^1.2.1 C:\Users\mauro_000\AppData\Roaming\npm-cache\9bbc94f4-gulp-plumber-1-2-1.lock
+113 silly lockFile 085ba6c5-gulp-rename-1-4-0 gulp-rename@1.4.0
+114 verbose lock gulp-rename@1.4.0 C:\Users\mauro_000\AppData\Roaming\npm-cache\085ba6c5-gulp-rename-1-4-0.lock
+115 silly lockFile 3e8be095-gulp-sass-4-0-2 gulp-sass@4.0.2
+116 verbose lock gulp-sass@4.0.2 C:\Users\mauro_000\AppData\Roaming\npm-cache\3e8be095-gulp-sass-4-0-2.lock
+117 silly lockFile e78f9b66-merge-stream-2-0-0 merge-stream@2.0.0
+118 verbose lock merge-stream@2.0.0 C:\Users\mauro_000\AppData\Roaming\npm-cache\e78f9b66-merge-stream-2-0-0.lock
+119 verbose cache add [ 'bootstrap@4.3.1', null ]
+120 verbose cache add name=undefined spec="bootstrap@4.3.1" args=["bootstrap@4.3.1",null]
+121 verbose parsed url Url {
+121 verbose parsed url   protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: 'bootstrap@4.3.1',
+121 verbose parsed url   path: 'bootstrap@4.3.1',
+121 verbose parsed url   href: 'bootstrap@4.3.1' }
+122 verbose cache add name="bootstrap" spec="4.3.1" args=["bootstrap","4.3.1"]
+123 verbose parsed url Url {
+123 verbose parsed url   protocol: null,
+123 verbose parsed url   slashes: null,
+123 verbose parsed url   auth: null,
+123 verbose parsed url   host: null,
+123 verbose parsed url   port: null,
+123 verbose parsed url   hostname: null,
+123 verbose parsed url   hash: null,
+123 verbose parsed url   search: null,
+123 verbose parsed url   query: null,
+123 verbose parsed url   pathname: '4.3.1',
+123 verbose parsed url   path: '4.3.1',
+123 verbose parsed url   href: '4.3.1' }
+124 verbose addNamed [ 'bootstrap', '4.3.1' ]
+125 verbose addNamed [ '4.3.1', '4.3.1' ]
+126 silly lockFile eba6146b-bootstrap-4-3-1 bootstrap@4.3.1
+127 verbose lock bootstrap@4.3.1 C:\Users\mauro_000\AppData\Roaming\npm-cache\eba6146b-bootstrap-4-3-1.lock
+128 verbose cache add name="" spec="fortawesome/fontawesome-free@5.9.0" args=["","fortawesome/fontawesome-free@5.9.0"]
+129 verbose parsed url Url {
+129 verbose parsed url   protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: 'fortawesome/fontawesome-free@5.9.0',
+129 verbose parsed url   path: 'fortawesome/fontawesome-free@5.9.0',
+129 verbose parsed url   href: 'fortawesome/fontawesome-free@5.9.0' }
+130 verbose cache add name="fortawesome/fontawesome-free" spec="5.9.0" args=["fortawesome/fontawesome-free","5.9.0"]
+131 verbose parsed url Url {
+131 verbose parsed url   protocol: null,
+131 verbose parsed url   slashes: null,
+131 verbose parsed url   auth: null,
+131 verbose parsed url   host: null,
+131 verbose parsed url   port: null,
+131 verbose parsed url   hostname: null,
+131 verbose parsed url   hash: null,
+131 verbose parsed url   search: null,
+131 verbose parsed url   query: null,
+131 verbose parsed url   pathname: '5.9.0',
+131 verbose parsed url   path: '5.9.0',
+131 verbose parsed url   href: '5.9.0' }
+132 verbose addNamed [ 'fortawesome/fontawesome-free', '5.9.0' ]
+133 verbose addNamed [ '5.9.0', '5.9.0' ]
+134 silly lockFile e15cf15c-rtawesome-fontawesome-free-5-9-0 fortawesome/fontawesome-free@5.9.0
+135 verbose lock fortawesome/fontawesome-free@5.9.0 C:\Users\mauro_000\AppData\Roaming\npm-cache\e15cf15c-rtawesome-fontawesome-free-5-9-0.lock
+136 silly addNameRange { name: 'simple-line-icons',
+136 silly addNameRange   range: '>=2.4.1-0 <3.0.0-0',
+136 silly addNameRange   hasData: false }
+137 silly addNameRange { name: 'gulp-plumber',
+137 silly addNameRange   range: '>=1.2.1-0 <2.0.0-0',
+137 silly addNameRange   hasData: false }
+138 verbose registry.get simple-line-icons not expired, no request
+139 silly addNameRange number 2 { name: 'simple-line-icons',
+139 silly addNameRange   range: '>=2.4.1-0 <3.0.0-0',
+139 silly addNameRange   hasData: true }
+140 silly addNameRange versions [ 'simple-line-icons',
+140 silly addNameRange   [ '1.0.0',
+140 silly addNameRange     '2.2.1',
+140 silly addNameRange     '2.2.2',
+140 silly addNameRange     '2.2.3',
+140 silly addNameRange     '2.2.4',
+140 silly addNameRange     '2.2.6',
+140 silly addNameRange     '2.3.0',
+140 silly addNameRange     '2.3.1',
+140 silly addNameRange     '2.3.2',
+140 silly addNameRange     '2.4.0',
+140 silly addNameRange     '2.4.1' ] ]
+141 verbose addNamed [ 'simple-line-icons', '2.4.1' ]
+142 verbose addNamed [ '2.4.1', '2.4.1' ]
+143 silly lockFile 42d88f9a-simple-line-icons-2-4-1 simple-line-icons@2.4.1
+144 verbose lock simple-line-icons@2.4.1 C:\Users\mauro_000\AppData\Roaming\npm-cache\42d88f9a-simple-line-icons-2-4-1.lock
+145 verbose registry.get fortawesome/fontawesome-free not expired, no request
+146 error TypeError: Cannot read property '5.9.0' of undefined
+146 error     at D:\Scuola\A.S.2018-2019\Classi\5D\TPSI\node-v11.1.0-win-x64\node_modules\npm\lib\cache.js:844:27
+146 error     at RegClient.get_ (D:\Scuola\A.S.2018-2019\Classi\5D\TPSI\node-v11.1.0-win-x64\node_modules\npm\node_modules\npm-registry-client\lib\get.js:111:14)
+146 error     at RegClient.<anonymous> (D:\Scuola\A.S.2018-2019\Classi\5D\TPSI\node-v11.1.0-win-x64\node_modules\npm\node_modules\npm-registry-client\lib\get.js:47:12)
+146 error     at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+147 error If you need help, you may report this *entire* log,
+147 error including the npm and node versions, at:
+147 error     <http://github.com/npm/npm/issues>
+148 error System Windows_NT 10.0.17134
+149 error command "D:\\Scuola\\A.S.2018-2019\\Classi\\5D\\TPSI\\node-v11.1.0-win-x64\\node.exe" "D:\\Scuola\\A.S.2018-2019\\Classi\\5D\\TPSI\\node-v11.1.0-win-x64\\node_modules\\npm\\bin\\npm-cli.js" "install" "--scripts-prepend-node-path=auto"
+150 error cwd C:\xampp\htdocs\5A\basket
+151 error node -v v11.1.0
+152 error npm -v 1.4.9
+153 verbose exit [ 1, true ]
